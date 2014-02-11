@@ -1,0 +1,275 @@
+/*
+Theme Name: Urban Outfitters Blog
+Theme URI: http://blog.urbanoutfitters.co.uk/
+Description: We kick ass
+Author: Superdwayne
+Author URI: www.superdwayne.co.uk
+Version: 1.0
+Tags: custom, mobile, iphone, ipad
+
+*/
+
+/*************Essentials****************/
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.cl { clear: both; }
+
+.hide { display: none; }
+
+.show { display: block; }
+
+img { border: none; max-width: 100%; max-height: 100%; }
+
+.readmore { color: #0CF !important; }
+
+a:link { color: #000; text-decoration: none; }
+
+a:visited { color: #000; text-decoration: none; }
+
+li { list-style-type: none; } 
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+.side-bar-info strong { font-weight: bold; }
+
+.archive-month h2 { font-family: font-family: Comfort, Arial, Helvetica, Verdana; font-size: 18px; }
+
+#back-top { background-image: url(http://blog.urbanoutfitters.co.uk/wp-content/themes/platform/images/up.gif); display: block; width: 64px; height: 86px; float: right; margin: -21px -70px 0px 0px;  }
+
+#category-headers { margin: 0px 0px 45px 0px; }
+
+#Whats { margin: 0px 0px 0px 20px; }
+
+#tid { margin: 0px 0px 0px 16px; }
+
+#footer { clear: both; }
+
+/***********Mobile-clean-up*********/
+
+.home-post-left-mobile { display: none; }
+
+.home-post-middle-mobile  { display: none; }
+
+.home-post-right-mobile { display: none; }
+
+#mobile-nav { display: none; }
+
+#content { display: none; }
+
+#logo-mobile { display: none; }
+
+#footer h1 { display: none; }
+
+/***********Padding*****************/
+
+.alignnone { padding: 8px; clear: both; }
+
+.alignnone-social { padding: 8px; clear: both; }
+
+.alignmarg { margin: 0px 8px 0px 0px; padding: 8px 0px 4px 8px !important; }
+
+.alignright { padding: 8px; margin: 0px 0px 8px 0px; background-color: none !important; }
+
+/*************Structure******************/
+
+body { padding-top: 5px; background-color: #ccc; background-image: url("http://www.amelie-rousseau.com/wordpress/wp-content/themes/UO-blog/img/300X300px.jpg"); background-repeat: repeat; background-attachment: fixed; padding: 0px; margin: 0px; font-family: Comfort, Arial, Helvetica, Verdana; }
+
+#logo img { margin: 10px 0px 0px 0px; }
+
+#container { width: 960px; margin: 0px auto; background-color: #fff; border-right: 8px solid #000; border-left: 8px solid #000; } 
+
+#container-archives { width: 960px; margin: 0px 0px 0px -8px; background-color: #fff; border-right: 8px solid #000; border-left: 8px solid #000; float: left; display: block; } 
+
+#boxes ul li  {list-style-type: none; }
+
+.home-post-left { width: 304px; margin: -15px 8px 0px 8px; }
+
+.home-post-left img  { padding: 8px; }
+
+.home-post-left p { margin: 0px 0px 0px 8px; padding: 0px 8px 10px 0px; }
+
+.home-post-middle { width: 304px;  margin: -15px 8px 0px 8px; }
+
+.home-post-middle img  { padding: 8px; }
+
+.home-post-middle p { margin: 0px 0px 0px 8px; padding: 0px 8px 10px 0px;  }
+
+.home-post-right { 	width: 304px;  margin: -15px 8px 0px 8px; }
+
+.home-post-right img  { padding: 8px; }
+
+.home-post-right p { margin: 0px 0px 0px 8px; padding: 0px 8px 10px 0px; }
+
+/*************Posts*********************/
+
+.post-excerpt-all { background-color: #fff; box-shadow: 1px 1px 1px 1px #D9D9D9; float: left; margin: 0px 0px 8px 8px; } 
+
+.post-excerpt-all h2 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px 0px 5px 0px; }
+
+.post-excerpt-all h3 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px; }
+
+.post-excerpt { margin-bottom: 20px; background-color: #fff; border-bottom: 2px solid #000; padding-bottom: 14px; }
+
+.post-excerpt h2 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px 0px 5px 0px; width: 240px; }
+
+.post-excerpt h3 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px; float: left; }
+
+.post-excerpt-post h2 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px 0px 5px 0px; }
+
+.post-excerpt-post h3 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px; }
+
+.post-excerpt-post .comment-number p  { margin: 8px 0px 0px 15px !important; color: #000;  }
+
+.home-post-left .comment-number p { margin: 8px 0px 0px 21px !important; color: #000;  }
+
+.comment-number { background-image: url("http://blog.urbanoutfitters.co.uk/wp-content/themes/platform/images/comments.png"); background-repeat: no-repeat; float: right; height: 35px; margin: -23px 9px 0 0; width: 51px; 	}
+
+.comment-number p { margin: 7px 0px 0px 21px !important; color: #000; }
+
+/***********Full*post*****************/
+
+.post-sidebar { display: none; }
+
+.post-content .top-image { width: 928px; padding: 8px; margin: 10px 0px 0px 8px; background-color: white; display: block; }
+
+.side-bar-info { width: 320px; float: right; margin: 18px 16px 0 0px; }
+
+.side-bar-info li { list-style-type: none; margin: 5px 0px 0px 0px; }
+
+.post-cat { margin: -290px 0px 0px 0px; float: right; }
+
+.post-content p { background-color: white; padding: 8px; margin: 20px 0px 20px 8px;  width: 580px; font-family: Comfort,Arial,Helvetica;  float: left;  }
+
+.write-yours { background-color: white; float: right; padding: 8px; margin: -49px 0px 0px 0px; }
+
+/************Font*********************/
+
+
+@font-face { font-family: Dolce; src: url('font/Dolce.otf'); } 
+
+@font-face { font-family: Comfort; src: url('font/comfortaa.ttf'); } 
+
+@font-face { font-family: Micky; src: url('font/Micky.ttf'); } 
+
+#boxes h1 { font-family: Dolce, Comfort, Arial, Helvetica, Verdana;  margin: 8px;  font-size: 30px; color: #000000; }
+
+.post-content h1 { font-family: Comfort, Arial, Helvetica, Verdana;  margin: 8px;  font-size: 30px; }
+
+/************Navgation******************/
+
+.main_nav {	line-height: 0.1em; text-align: left; margin-top: 0px; z-index:28; position:relative; }
+		
+.main_nav .content-pad{ padding-top: 6px; }
+
+.main_nav ul{ list-style: none; display: block; padding: 0px; float: left; }
+
+.main_nav ul li{ margin: 0px 0px 0px 0px; float: left; text-align: center;  }
+
+.main_nav li { position:relative;}
+
+.main_nav li a { padding: 10px 15px 10px; text-decoration: none; display: block; border: 1px solid transparent; border-bottom:none; font-size: .85em;  }
+
+.nav-header { width: 960px;  margin: 0px 0px 0px 0px; background-color: #fff; position: fixed; opacity: 0.9;}
+
+ul.nav-header li:hover ul { display: block; }
+
+ul.nav-header li ul { position: absolute; display: none; background: #fff; color: #fff; -webkit-box-shadow: 1px 1px 1px 1px #d9d9d9; box-shadow: 1px 1px 1px 1px #d9d9d9;  }
+
+ul.nav-header li ul li a { background: none repeat scroll 0 0 #fff; color: #000 !important; font-size: 12px; line-height: 16px;  padding: 0px 0 8px 17px; margin-top: 6px; width: 170px;   } 
+
+ul.nav-header li a:hover { background-color: #fff; color: #00ccff !important;  } 
+
+.nav-header li.parent:hover { margin: 0px 0px 0px 30px; /* background-color: #fff; */  color: #000; text-align: center;  }
+ 
+.nav-header li.parent { margin: 0px 0px 0px 30px; text-align: left;  color: #00ccff;  }
+
+.nav-header li.parent a { text-align: left; font-family: Comfort, Arial, Helvetica; font-size: 15px; color: #000;   }
+
+.nav-header li.parent ul.child-nav li a:hover {  color: #000; }
+
+/* .search { width: 180px; } */
+
+.search { padding: 6px 0 3px 48px !important;  margin: -4px 0px 0px 0px !important;}
+
+#s { width: 156px; padding: 6px 3px 0px 2px; }
+
+/************Archive page*********************/
+
+.archive-month { text-align: center; margin: 0px 0px 20px 0px; font-weight: normal; }
+
+.post-excerpt-post { margin: 0px 8px 8px 8px; background-color: #fff; float: left;  text-align: left; height: auto; width: 304px; }
+
+.post-excerpt-post img { padding: 8px; }
+
+.post-excerpt-post p { padding: 0px 0px 8px 8px; margin: 0px;  }
+
+/*************Categories page***************/
+
+.categories { margin: 0px 0px 20px 0px; text-align: center;  }
+
+/*************search page****************/
+
+#search { text-align: center; margin: 0px 0px 20px 0px; }
+
+#searchsubmit { display: block; background: url(http://blog.urbanoutfitters.co.uk/wp-content/themes/platform/images/search-btn.png); background-repeat: no-repeat; border: medium none;  float: right; height: 17px; text-indent: -9999px; width: 17px; position: absolute; top: 10px; left: 190px; }
+ 
+.screen-reader-text { text-indent: -9999px; display: none; } 
+
+/*************Comments*****************/
+
+.commentlist { background-color: #fff; width: 580px; padding: 8px; font-family: Comfort, Arial, Helvetica; font-size: 14pt; }
+
+.says { display: none; }
+
+.comment-author img { display: none; }
+
+.comment-author { margin: 0px 0px 10px 0px; }
+
+.comment-text p { padding: 8px 0px 10px 8px; font-family: Comfort, Arial, Helvetica; font-size: 14pt; background-color: #f5f5f5;  }
+
+.comment-body { margin: 0px 0px 20px 0px; }
+
+#comments { text-indent: -9999px; }
+
+.comment-meta { color: #afafaf !important; }
+
+.reply a { text-indent: -9999px; background-image: url(http://blog.urbanoutfitters.co.uk/wp-content/themes/platform/images/reply.jpg); width: 37px; height: 20px; display: block; color: white; }
+
+.reply { float: right; margin: -39px 9px 0 0px; }
+
+#cancel-comment-reply {  }
+
+.comment-text { padding: 5px 1px 24px 8px; font-family: Comfort, Arial, Helvetica; font-size: 14pt; background-color: #f5f5f5; }
+
+.comment-header { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; width: 588px; margin: -4px 0px -96px 0px; height: 50px; }
+
+.comment-header-say { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; width: 588px; height: 60px; }
+
+#user-comment { width: 580px; background-color: #fff; max-height: 100%; display: block; margin: 0px 0px 0px 8px; padding: 8px; }
+
+/************Comment-reply-color********/
+
+#div-comment-3 .comment-text p { background-color: red; }
+
+#div-comment-4 .comment-text p { background-color: blue; }
+
+#div-comment-5 .comment-text p { background-color: green; }
+
+/***********Related-posts*************/
+
+.related-posts { clear: both; margin: 0px 0px 0px 25px; }
+
+.related-posts ul li { margin: 0px 8px 0px 0px; padding: 0px !important; float: left; width: 90px;  }
+
+.related-mob { display: none !important; }
+
+/************Header elements************/
+
+#festival-stop { position: fixed; margin: -80px 0px 0px 820px; display: block;  }
+
+#festival-stop a { background-image: url(http://www.amelie-rousseau.com/wp-content/themes/UO-blog/img/Festival_btnsmall.png); width: 100px; height: 123px;  display: block; }
+
+#festival-stop a:hover { background-image: url(http://www.amelie-rousseau.com/wp-content/themes/UO-blog/img/Festival_btnsmall.png); background-position: bottom; width: 100px; height: 123px; display: block; }

@@ -1,0 +1,1086 @@
+/****Legend*****
+
+ iphone 5 portrait
+ 
+ iphone- 5 landscape
+ 
+ iPhone 4s
+ 
+ ipad portrait
+ 
+ ipad landscape
+ 
+ ipad retina 
+ 
+ Google nexus 7
+ 
+ */
+ 
+/*
+Theme Name: Urban Outfitters Blog (responsive)
+Theme URI: http://blog.urbanoutfitters.co.uk/
+Author: Superdwayne
+Author URI: www.superdwayne.co.uk
+Version: 1.0
+Tags: custom, mobile, iphone, ipad
+
+*/ 
+ 
+
+iframe { max-width: 100%; max-height: 100%; }
+
+/* Google nexus Portrait  */
+@media only screen and (max-width: 800px) and (min-width: 600px) { 
+
+#container { max-width: 100% !important; width: 100% !important; border: none !important;  } 
+
+img { max-width: 100% !important; margin: 0px;   }  
+
+.nav-header { display: none !important;  }
+
+#logo { margin: 0px 0px 0px 72px !important; }
+
+#searchform { padding: 5px; color: #ccc; width: 175px; border: 0px; }
+
+.post-excerpt h2 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px 0px 5px 0px; text-align: left; }
+
+.post-excerpt h3 { font-size: 15px; padding: 8px 0px 8px 8px; margin: 0px; text-align: left; }
+
+#boxes #logo { display: none; }
+
+#back-top { margin: 0px 260px 0px 0px;  }
+
+/*********Search-page************/
+
+.search-top p.center { padding: 0px 5px 0px 5px; }
+
+#searchsubmit { background: none !important; }
+
+#s { margin: 0px 0px 0px 204px; }
+
+/********Home-page***************/
+
+#news  { display: none !important;  }
+
+#Whats  { display: none !important;  }
+
+#tid  { display: none !important;  }
+
+.home-post-left { float: none !important; display: none !important; }
+
+.home-post-right { float: none !important; display: none !important; }
+
+.home-post-middle { float: none !important; display: none !important; }
+
+.home-post-left-mobile { display: block; margin: 0px 0px 0px 145px; }
+
+.home-post-right-mobile { display: block; margin: 0px 0px 0px 145px; }
+
+.home-post-middle-mobile { display: block; margin: 0px 0px 0px 145px; }
+
+.home-post-right-mobile p { padding:  0px 2px 8px 8px; margin: 0; }
+
+.home-post-left-mobile p { padding:  0px 2px 8px 8px; margin: 0; }
+
+.home-post-middle-mobile p { padding: 0px 2px 8px 8px; margin: 0; }
+
+.post-excerpt { background-color: #fff; margin: 8px 8px 20px 8px !important; width: 67%; }
+
+#boxes h1 { font-family: Dolce, Comfort, Arial, Helvetica, Verdana;  margin: 8px;  font-size: 80px; color: #000000; display: block;  margin: 0px 0px 0px 10px; }
+
+#more-posts {margin: 0px 0px 0px -11px;  text-align: center; }
+
+#footer { text-align: center; }
+
+/*********Navagation***************/
+
+#mobile-nav { display: block; }
+
+#content { display: block; }
+
+.child-nav-cat h1 { color: #fff; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc;  }
+
+#nav li a  { font-size: 13px; }
+
+#logo-mobile { margin: 0px 0px 0px 80px; display: block; padding-top: 10px; }
+
+#logo { display: none; }
+ 
+/*******Full-posts***************/
+
+ .top-image  { padding: 8px;  max-width: 95%; height: auto; }
+
+
+.post-content p { width: 95% !important;  }
+
+.side-bar-info { margin: -18px 0px 0px -11px; float: left !important; }
+
+.post-cat , .post-archive { display: none; }
+
+#social-bot { margin: 0px 0px 0px 0px; clear: both; }
+
+/********Post-excerpt***********/
+
+.post-excerpt-post { height: auto; margin: 0px 0px 20px 145px; }
+
+/*******Social*****************/
+
+.st_facebook_hcount , .st_plusone_hcount { display: none; }
+
+
+/*******Comments***************/
+
+.commentlist { max-width: 100% !important;  width: 97%; margin: 0px 0px 0px 0px; }
+
+.comment-text p { background-color: #ccc;   }
+
+.comment-number p { margin: 6px 0px 0px 15px !important; color: #000; }
+
+#comment { max-width: 100%; padding: 10px; }
+
+#respond { margin: 0px 8px 0px 0px; }
+
+.comment-header { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; width: 573px; margin: -4px 0px -96px 0px; height: 50px; }
+
+.comment-header-say h2 { margin: 0px 0px 12px 0px; padding: 8px 0px 0px 0px; height: 26px; }
+
+.comment-header-say { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; width: 97%; height: 50px; }
+
+#commentform input { padding: 10px; }
+
+/*Comment responses */ 
+
+/********Footer***************/
+
+#footer h1 { display: block; font-size: 18px; }
+
+#footer  #footer-signup { display: none; }
+
+#footer form { display: block; text-align: center; }
+
+/********Tags*****************/
+
+#tags { display: none; }
+
+/********Social-icons*********/
+
+.st_twitter_hcount {  }
+
+.st_facebook_hcount { margin: 30px 0px 0px 0px; }
+
+#plusone { }
+
+.st_pinterest_hcount {  }
+
+}
+
+/**********Google Nexus Landscape *************/
+
+@media only screen and (max-width: 961px) and (min-height: 441px) and (orientation : landscape) { 
+
+#container { max-width: 100% !important; width: 100% !important; border: none !important;  }  
+
+img { max-width: 100% !important; margin: 0px;   }  
+
+.nav-header { display: none !important;  }
+
+#logo { margin: 0px 0px 0px 72px !important; }
+
+#boxes #logo { display: none; }
+
+#searchform { padding: 5px; color: #ccc; width: 175px; border: 0px !important; }
+
+/********Home-page***************/
+
+#news  { display: none !important;  }
+
+#Whats  { display: none !important;  }
+
+#tid  { display: none !important;  }
+
+.home-post-left { float: none !important; display: none !important; }
+
+.home-post-right { float: none !important; display: none !important; }
+
+.home-post-middle { float: none !important; display: none !important; }
+
+
+.home-post-left-mobile { display: block; width: 320px; float: left; margin: 20px 0px 0px 61px !important; }
+
+.home-post-middle-mobile { display: block; width: 320px; clear: none; margin: 20px 15px 0px 60px !important; float: left !important; }
+
+.home-post-right-mobile { display: block; width: 320px; float: left; margin: 20px 0px 0px 15px; }
+
+.home-post-right-mobile p { padding: 8px; margin: 0; }
+
+.home-post-left-mobile p { padding: 8px; margin: 0; }
+
+.home-post-middle-mobile p { padding: 8px; margin: 0; }
+
+.post-excerpt { background-color: #fff; margin: 8px 8px 20px 65px !important; width: 305px; }
+
+#boxes h1 { font-family: Dolce, Comfort, Arial, Helvetica, Verdana;  margin: 8px;  font-size: 103px; color: #000000; display: block;  margin: 0px 0px 0px 10px !important; }
+
+#all-post-wrapper { margin: 0px 0px 0px 0px; }
+
+/* #commentForm { margin: 0px 0px 0px 170px; }  */
+
+/*********Navagation***************/
+
+#mobile-nav { display: block; }
+
+#content { display: block; }
+
+.child-nav-cat h1 { color: #fff; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }
+
+#nav li a  { font-size: 13px; }
+
+#logo-mobile { margin: 0px 0px 0px 80px; display: block; padding-top: 10px; }
+
+#logo { display: none; }
+
+#back-top { margin: 0px 0px 0px 335px !important; float: left !important; }
+  
+/*******Full-posts***************/
+
+.top-image  { padding: 8px;  max-width: 95%; height: auto;  }
+
+
+.post-content p { max-width: 94% !important; margin: 8px 0px 0px 8px!important; }
+
+.side-bar-info { margin: 20px 0px 20px 0px; display: none; }
+
+.post-cat , .post-archive { display: none; }
+
+.entry_content { margin: 0px 0px 0px 11px !important; }
+
+/********Post-excerpt***********/
+
+.post-excerpt-post { height: auto; margin: 0px 0px 20px 53px; }
+
+.post-excerpt { max-width: 100%; }
+
+#post-50  { float: right; }
+
+#post-60  { float: left; }
+
+/*******Social*****************/
+
+.st_facebook_hcount , .st_plusone_hcount { display: none; }
+
+/*******Comments***************/
+
+.commentlist { max-width: 100% !important;  width: 95%; margin: 0px 0px 0px 0px; }
+
+.comment-text p { background-color: #ccc;  }
+
+#comment { max-width: 100%; }
+
+#respond { margin: 0px 8px 0px 0px; }
+
+.comment-header { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; width: 96%; margin: -4px 0px -96px 0px; height: 50px; }
+
+/*Comment responses */
+
+/********Footer***************/
+
+#footer h1 { display: block; font-size: 18px; }
+
+#footer  #footer-signup { display: none; }
+
+#footer { clear: both; text-align: center; }
+
+#more-posts { text-align: center; }
+
+ }
+
+
+/* ipad retina  */
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+
+body { display: none; }
+
+}
+
+/* ipad landscape  */
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation : landscape) {
+
+#container { max-width: 100% !important; width: 100% !important;  border: none !important; }  
+
+#container-archives { width: 100%; border: none; margin: 0px; }
+
+img { max-width: 100% !important; margin: 0px;   }  
+
+.nav-header { display: none !important;  }
+
+#logo { margin: 0px 0px 0px 72px !important; }
+
+#boxes #logo { display: none; }
+
+#searchform { padding: 5px; color: #ccc; width: 175px; }
+
+/********Home-page***************/
+
+#news  { display: none !important;  }
+
+#Whats  { display: none !important;  }
+
+#tid  { display: none !important;  }
+
+.home-post-left { float: none !important; display: none !important; }
+
+.home-post-right { float: none !important; display: none !important; }
+
+.home-post-middle { float: none !important; display: none !important; }
+
+.home-post-left-mobile { display: block; width: 320px; float: left; margin: 20px 0px 0px 15px; }
+
+.home-post-middle-mobile { display: block; width: 320px; clear: none; margin: 20px 15px 0px 0px; float: right; }
+
+.home-post-right-mobile { display: block; width: 320px; float: left; margin: 20px 0px 0px 15px; }
+
+.home-post-right-mobile p { padding: 8px; margin: 0; }
+
+.home-post-left-mobile p { padding: 8px; margin: 0; }
+
+.home-post-middle-mobile p { padding: 8px; margin: 0; }
+
+.post-excerpt { background-color: #fff; margin: 8px 8px 20px 8px !important; }
+
+#boxes h1 { font-family: Dolce, Comfort, Arial, Helvetica, Verdana;  margin: 8px;  font-size: 103px; color: #000000; display: block;  margin: 9px 0px 0px 108px; }
+
+#all-post-wrapper { margin: 0px 0px 0px 0px; }
+
+/* #commentForm { margin: 0px 0px 0px 170px; }  */
+
+/*********Navagation***************/
+
+#mobile-nav { display: block; }
+
+#content { display: block; }
+
+.child-nav-cat h1 { color: #fff; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }
+
+#nav li a  { font-size: 13px; }
+
+#logo-mobile { margin: 0px 0px 0px 80px; display: block; padding-top: 10px; }
+
+#logo { display: none; }
+
+#back-top { margin: 0px 0px 0px 440px; }
+ 
+/*******Full-posts***************/
+ .top-image  { padding: 8px;  max-width: 94%;   }
+
+.post-content p { width: 93%; margin: 12px 0px -40px 8px; }
+
+.side-bar-info { margin: 20px 0px 20px 0px; }
+
+.post-cat , .post-archive { display: none; }
+
+.entry_content { margin: 0px 0px 0px 30px; }
+
+.alignnone-social { padding: 8px; clear: both; }
+
+/********Post-excerpt***********/
+
+.post-excerpt-post { height: auto; margin: 0px 0px 20px 30px; }
+
+.post-excerpt { max-width: 100%; }
+
+#post-50  { float: right; }
+
+#post-60  { float: left; }
+
+/*******Social*****************/
+
+.st_facebook_hcount , .st_plusone_hcount { display: none; }
+
+/*******Comments***************/
+
+.commentlist { max-width: 100% !important;  width: 95%; margin: 0px 0px 0px 0px; }
+
+.comment-text p { background-color: #ccc;  }
+
+#comment { max-width: 100%; }
+
+#respond { margin: 0px 8px 0px 0px; }
+
+.comment-header { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; width: 96%; margin: -4px 0px -96px 0px; height: 50px; }
+
+#commentform input { padding: 10px; }
+
+.comment-header-say { width: 95%; }
+
+.comment-number p { margin: 3px 0px 0px 16px !important; color: #000; }
+
+/*Comment responses */
+
+/********Footer***************/
+
+#footer h1 { display: block; font-size: 18px; }
+
+#footer  #footer-signup { display: none; }
+
+#footer { clear: both; text-align: center; }
+
+#more-posts { text-align: center; }
+
+}/* end of ipad lansdcape */
+
+/* ipad portrait */
+@media only screen and (max-width: 1024px) and (min-width: 768px)  and (orientation : portrait) { 
+
+
+.categories { margin: 0px 0px 20px -200px; text-align: center;  font-size: 10px; }
+
+#container { max-width: 100% !important; width: 100% !important; border: none !important;  }  
+
+img { max-width: 100% !important; margin: 0px;   }  
+
+.nav-header { display: none !important;  }
+
+#logo { margin: 0px 0px 0px 72px !important; }
+
+#boxes #logo { display: none; }
+
+#searchform { padding: 5px; color: #ccc; width: 175px; }
+
+/*********Search-page************/
+
+.search-top p.center { padding: 0px 5px 0px 5px; }
+
+#searchsubmit { background: none !important; }
+
+#s { margin: 0px 0px 0px 195px; }
+
+/********Home-page***************/
+
+#news  { display: none !important;  }
+
+#Whats  { display: none !important;  }
+
+#tid  { display: none !important;  }
+
+.home-post-left { float: none !important; display: none !important; }
+
+.home-post-right { float: none !important; display: none !important; }
+
+.home-post-middle { float: none !important; display: none !important; }
+
+.home-post-left-mobile { display: block; width: 320px; float: left; margin: 20px 0px 0px 50px; }
+
+.home-post-middle-mobile { display: block; width: 320px; clear: left; margin: 20px 0px 0px 50px;  }
+
+.home-post-right-mobile { display: block; width: 320px; float: right; margin: 20px 53px 0px 0px;  }
+
+.home-post-right-mobile p { padding: 8px; margin: 0; }
+
+.home-post-left-mobile p { padding: 8px; margin: 0; }
+
+.home-post-middle-mobile p { padding: 8px; margin: 0; }
+
+.post-excerpt { background-color: #fff; margin: 8px 8px 20px 8px !important; width: 95%!important; }
+
+#boxes h1 { font-family: Dolce, Comfort, Arial, Helvetica, Verdana;  margin: 8px;  font-size: 103px; color: #000000; display: block;  margin: 0px 0px 0px 10px; }
+
+#all-post-wrapper { margin: 0px 0px 0px 0px; }
+
+.post-excerpt-post p {padding: 7px 0px 8px 8px !important;}
+
+/*********Navagation***************/
+
+#mobile-nav { display: block; }
+
+#content { display: block; }
+
+.child-nav-cat h1 { color: #fff; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }
+
+#nav li a  { font-size: 13px; }
+
+#logo-mobile { margin: 0px 0px 0px 80px; display: block; padding-top: 10px; }
+
+#logo { display: none; }
+
+#back-top { margin: 0px 0px 0px 350px;  float: none;}
+ 
+/*******Full-posts***************/
+
+ .top-image  { padding: 8px; max-width: 96%; width: 100% !important;  height: auto;  }
+
+.post-content p { max-width: 96%; width: 960px !important; margin: 16px 0px -30px 8px; font-size: 20px; line-height: 22px; } 
+
+.side-bar-info { margin: 20px 0px 20px 0px; float: left !important; }
+
+.post-cat , .post-archive { display: none; }
+
+/********Post-excerpt***********/
+
+.post-excerpt-post { height: auto; margin: 0px 0px 20px 50px; }
+
+.post-excerpt { max-width: 100%; }
+
+#post-50  { float: right; }
+
+#post-60  { float: left; }
+
+/*******Social*****************/
+
+.st_facebook_hcount , .st_plusone_hcount { display: none; }
+
+/*******Comments***************/
+
+.commentlist { max-width: 100% !important;  width: 95%; margin: 0px 0px 0px 0px; }
+
+.comment-text p { background-color: #ccc;  }
+
+#comment { max-width: 100%; }
+
+#respond { margin: 0px 8px 0px 0px; }
+
+.comment-number p { margin: 4px 0px 0px 15px !important; }
+
+.comment-header { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; width: 720px; margin: -4px 0px -96px 0px; height: 50px; }
+
+/*Comment responses */ 
+
+/********Footer***************/
+
+#footer h1 { display: block; font-size: 18px; }
+
+#footer  #footer-signup { display: none; }
+
+#footer { clear: both; text-align: center; }
+
+#more-posts { text-align: center; }
+
+
+}/* end of ipad portrait */
+
+
+/* iphone- 5 landscape */
+@media only screen and (max-width: 568px) and (min-width: 320px) { 
+
+#container-archives { width: 100%; border: none; margin: 0px; }
+
+.categories { margin: 0px 0px 20px -20px; font-size: 10px;  }
+
+#container { max-width: 100% !important; width: 100% !important; border: none !important; }  
+
+.top-image img { height: auto; }
+
+img { max-width: 100% !important; margin: 0px;  height: auto;  }  
+
+.nav-header { display: none !important;  }
+
+#logo { margin: 0px 0px 0px 72px !important; }
+
+#searchform { padding: 5px; color: #ccc; width: 175px; }
+
+#boxes h1 { font-family: Dolce, Comfort, Arial, Helvetica, Verdana; font-size: 60px; color: #000000; margin: 0px 0px 0px -90px; }
+
+#boxes #logo { display: none; }
+
+/*********Search-page************/
+
+.search-top p.center { padding: 0px 5px 0px 5px; }
+
+#searchsubmit { background: none !important; }
+
+#s { margin: 0px 0px 0px 195px; }
+
+/********Home-page***************/
+
+#news  { display: none !important;  }
+
+#Whats  { display: none !important;  }
+
+#tid  { display: none !important;  }
+
+.home-post-left { float: none !important; display: none !important; }
+
+.home-post-right { float: none !important; display: none !important; }
+
+.home-post-middle { float: none !important; display: none !important; }
+
+.home-post-left-mobile { display: block; }
+
+.home-post-right-mobile { display: block; }
+
+.home-post-middle-mobile { display: block; }
+
+.home-post-right-mobile p { padding: 8px; margin: 0; }
+
+.home-post-left-mobile p { padding: 8px; margin: 0; }
+
+.home-post-middle-mobile p { padding: 8px; margin: 0; }
+
+.post-excerpt { background-color: white; margin: 8px 8px 20px 130px !important; width: 305px;  }
+
+.post-excerpt-post p { width: auto; padding: 0px 2px 8px 8px; }
+
+#more-posts { text-align: center; }
+
+#footer { text-align: center; }
+
+/*********Navagation***************/
+
+#mobile-nav { display: block; }
+
+#content { display: block; }
+
+.child-nav-cat h1 { color: #fff; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }
+
+#nav li a  { font-size: 13px; }
+
+#logo-mobile { margin: 0px 0px 0px 180px; display: block; padding-top: 10px; }
+
+#logo { display: none; }
+ 
+/*******Full-posts***************/
+
+ .top-image  { padding: 8px;  max-width: 90%; height: auto;  }
+
+
+.post-content p { max-width: 90%; }
+
+.side-bar-info { margin: 20px 0px 20px 0px; display: none; }
+
+.post-cat , .post-archive { display: none; }
+
+/********Post-excerpt***********/
+
+.post-excerpt-post { height: auto; margin: 0px 0px 20px 125px; float: none; width: 304px; }
+
+/*******Social*****************/
+
+.st_facebook_hcount , .st_plusone_hcount { display: none; }
+
+
+/*******Comments***************/
+
+.commentlist { max-width: 100% !important;  width: 95%; margin: 0px 0px 0px 0px; }
+
+.comment-text p { background-color: #ccc;  }
+
+.comment-number p { margin: 1px 0px 0px 14px !important; }
+
+#comment { max-width: 100%; }
+
+#respond { margin: 0px 8px 0px 0px; }
+
+.comment-header { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; width: 530px; margin: -4px 0px -96px 0px; height: 50px; }
+
+.comment-header-say { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; max-width: 100%; height: 60px; }
+
+/*Comment responses */
+
+
+/********Footer***************/
+
+#footer h1 { display: block; font-size: 18px;  text-align: center;}
+
+#footer #footer-signup { display: none; }
+
+} /* end of landscape */
+
+
+/* iphone 5 portrait */
+@media only screen and (max-width: 340px) and (min-width: 5px)  { 
+
+#container { max-width: 100% !important; width: 100% !important;  border: none !important; } 
+
+img { max-width: 100% !important; margin: 0px;  height: auto;  }  
+
+.nav-header { display: none !important;  }
+
+#logo { margin: 0px 0px 0px 72px !important; }
+
+#searchform { padding: 5px; color: #ccc; width: 175px; }
+
+.post-excerpt h2 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px 0px 5px 0px; text-align: left; }
+
+.post-excerpt h3 { font-size: 15px; padding: 8px 0px 8px 8px; margin: 0px; text-align: left; }
+
+#boxes #logo { display: none; }
+
+#back-top { margin: -21px -70px 0px 125px !important; float: none !important;  }
+
+/*********Search-page************/
+
+.search-top p.center { padding: 0px 5px 0px 5px; }
+
+#searchsubmit { background: none !important; }
+
+#s { margin: 0px 0px 0px 72px; }
+
+
+/********Home-page***************/
+
+#news  { display: none !important;  }
+
+#Whats  { display: none !important;  }
+
+#tid  { display: none !important;  }
+
+.home-post-left { float: none !important; display: none !important; }
+
+.home-post-right { float: none !important; display: none !important; }
+
+.home-post-middle { float: none !important; display: none !important; }
+
+.home-post-left-mobile { display: block; }
+
+.home-post-right-mobile { display: block; }
+
+.home-post-middle-mobile { display: block; }
+
+.home-post-right-mobile p { padding:  0px 2px 8px 8px; margin: 0; }
+
+.home-post-left-mobile p { padding:  0px 2px 8px 8px; margin: 0; }
+
+.home-post-middle-mobile p { padding: 0px 2px 8px 8px; margin: 0; }
+
+.post-excerpt { background-color: #fff; margin: 8px 8px 20px 8px !important; }
+
+#boxes h1 { font-family: Dolce, Comfort, Arial, Helvetica, Verdana;  margin: 8px;  font-size: 32px; color: #000000; display: block;  margin: 0px 0px 0px 10px; }
+
+#more-posts { text-align: center; margin: 0px 0px 0px -11px;  }
+
+#footer { text-align: center; }
+
+/*********Navagation***************/
+
+#mobile-nav { display: block; }
+
+#content { display: block; }
+
+.child-nav-cat h1 { color: #fff; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc;  }
+
+#nav li a  { font-size: 13px; }
+
+#logo-mobile { margin: 0px 0px 0px 80px; display: block; padding-top: 10px; }
+
+#logo { display: none; }
+ 
+/*******Full-posts***************/
+ .top-image  { padding: 8px;  max-width: 90%; height: auto; }
+
+
+.post-content p { max-width: 90%; }
+
+.side-bar-info { margin: 20px 0px -20px 0px; }
+
+.post-cat , .post-archive { display: none; }
+
+#social-bot { margin: 0px 0px 0px 0px; }
+
+.related-mob { display: block !important; }
+
+.related-posts { margin: 0px 0px 0px 8px; }
+
+.related-posts ul li { margin: 0px 8px 0px 0px !important; padding: 0px !important; float: left; width: 90px; }
+
+/********Post-excerpt***********/
+
+.post-excerpt-post { height: auto; margin: 0px 0px 20px 8px; }
+
+/*******Social*****************/
+
+.st_facebook_hcount , .st_plusone_hcount { display: none; }
+
+
+/*******Comments***************/
+
+.commentlist { max-width: 100% !important;  width: 95%; margin: 0px 0px 0px 0px; }
+
+.comment-text p { background-color: #ccc;  }
+
+#comment { max-width: 100%; }
+
+#respond { margin: 0px 8px 0px 0px; }
+
+.comment-header-say h2 { margin: 0px 0px 50px 0px; }
+
+.comment-header-say { background-color: #fff; font-size: 14pt; padding: 0px 0px 0px 8px; width: 288px; height: 45px; }
+
+
+/*Comment responses */ 
+
+/********Footer***************/
+
+#footer h1 { display: block; font-size: 18px; }
+
+#footer  #footer-signup { display: none; }
+
+#footer form { display: block; text-align: center; }
+
+/********Tags*****************/
+
+#tags { display: none; }
+
+/********Social-icons*********/
+
+.st_twitter_hcount {  }
+
+.st_facebook_hcount { margin: 30px 0px 0px 0px; }
+
+#plusone { }
+
+.st_pinterest_hcount {  }
+
+}/* end of portrait */
+
+/* iPhone 4s landscape */
+@media only screen and (min-width: 480px) and (max-width: 320px) and (orientation: landscape) {
+
+#container { max-width: 100% !important; width: 100% !important;  border: none !important; } 
+
+img { max-width: 100% !important; margin: 0px;   }  
+
+.nav-header { display: none !important;  }
+
+#logo { margin: 0px 0px 0px 72px !important; }
+
+#searchform { padding: 5px; color: #ccc; width: 175px; border: none; }
+
+.post-excerpt h2 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px 0px 5px 0px; text-align: left; }
+
+.post-excerpt h3 { font-size: 15px; padding: 8px 0px 8px 8px; margin: 0px; text-align: left; }
+
+#boxes #logo { display: none; }
+
+/*********Search-page************/
+
+.search-top p.center { padding: 0px 5px 0px 5px; }
+
+#searchsubmit { background: none !important; }
+
+#s { margin: 0px 0px 0px 72px; }
+
+/********Home-page***************/
+
+#news  { display: none !important;  }
+
+#Whats  { display: none !important;  }
+
+#tid  { display: none !important;  }
+
+.home-post-left { float: none !important; display: none !important; }
+
+.home-post-right { float: none !important; display: none !important; }
+
+.home-post-middle { float: none !important; display: none !important; }
+
+.home-post-left-mobile { display: block; }
+
+.home-post-right-mobile { display: block; }
+
+.home-post-middle-mobile { display: block; }
+
+.home-post-right-mobile p { padding:  0px 2px 8px 8px; margin: 0; }
+
+.home-post-left-mobile p { padding:  0px 2px 8px 8px; margin: 0; }
+
+.home-post-middle-mobile p { padding: 0px 2px 8px 8px; margin: 0; }
+
+.post-excerpt { background-color: #fff; margin: 8px 8px 20px 93px !important; }
+
+#boxes h1 { font-family: Dolce, Comfort, Arial, Helvetica, Verdana;  margin: 8px;  font-size: 32px; color: #000000; display: block;  margin: 0px 0px 0px 10px; }
+
+#more-posts {margin: 0px 0px 0px 63px; }
+
+.comment-number p { margin: 8px 0px 0px 12px !important; }
+
+/*********Navagation***************/
+
+#mobile-nav { display: block; }
+
+#content { display: block; }
+
+.child-nav-cat h1 { color: #fff; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; font-size: 15px; }
+
+#nav li a  { font-size: 13px; }
+
+#logo-mobile { margin: 0px 0px 0px 80px; display: block; padding-top: 10px; }
+
+#logo { display: none; }
+ 
+/*******Full-posts***************/
+
+ .top-image  { padding: 8px;  max-width: 90%;  height: auto; }
+
+
+
+.post-content p { max-width: 90%; }
+
+.side-bar-info { margin: 20px 0px -20px 0px; }
+
+.post-cat , .post-archive { display: none; }
+
+/********Post-excerpt***********/
+
+.post-excerpt-post { height: auto; margin: 0px 0px 20px 8px; }
+
+/*******Social*****************/
+
+.st_facebook_hcount , .st_plusone_hcount { display: none; }
+
+/*******Comments***************/
+
+.commentlist { max-width: 100% !important;  width: 95%; margin: 0px 0px 0px 0px; }
+
+.comment-text p { background-color: #ccc;  }
+
+#comment { max-width: 100%; }
+
+#respond { margin: 0px 8px 0px 0px; }
+
+/*Comment responses */ 
+
+/********Footer***************/
+
+#footer h1 { display: block; font-size: 18px; }
+
+#footer  #footer-signup { display: none; }
+
+}
+
+/* iPhone 4s portrait */
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) { 
+
+#container { max-width: 100% !important; width: 100% !important; border: none !important;  } 
+
+img { max-width: 100% !important; margin: 0px;  }  
+
+.nav-header { display: none !important;  }
+
+#logo { margin: 0px 0px 0px 72px !important; }
+
+#searchform { padding: 5px; color: #ccc; width: 175px; border: none; }
+
+.post-excerpt h2 { font-size: 15px; padding: 8px 0px 0px 8px; margin: 0px 0px 5px 0px; text-align: left; }
+
+.post-excerpt h3 { font-size: 15px; padding: 8px 0px 8px 8px; margin: 0px; text-align: left; }
+
+#boxes #logo { display: none; }
+
+/*********Search-page************/
+
+.search-top p.center { padding: 0px 5px 0px 5px; }
+
+#searchsubmit { background: none !important; }
+
+#s { margin: 0px 0px 0px 72px; }
+
+/********Home-page***************/
+
+#news  { display: none !important;  }
+
+#Whats { display: none !important;  }
+
+#tid  { display: none !important;  }
+
+.home-post-left { float: none !important; display: none !important; }
+
+.home-post-right { float: none !important; display: none !important; }
+
+.home-post-middle { float: none !important; display: none !important; }
+
+.home-post-left-mobile { display: block; }
+
+.home-post-right-mobile { display: block; }
+
+.home-post-middle-mobile { display: block; }
+
+.home-post-right-mobile p { padding:  0px 2px 8px 8px; margin: 0; }
+
+.home-post-left-mobile p { padding:  0px 2px 8px 8px; margin: 0; }
+
+.home-post-middle-mobile p { padding: 0px 2px 8px 8px; margin: 0; }
+
+.post-excerpt { background-color: #fff; margin: 8px 8px 20px 8px !important; }
+
+#boxes h1 { font-family: Dolce, Comfort, Arial, Helvetica, Verdana;  margin: 8px;  font-size: 32px; color: #000000; display: block;  margin: 10px 0px 0px 10px; }
+
+#more-posts { text-align: center; }
+
+.comment-number p { margin: 8px 0px 0px 12px !important; }
+
+/*********Navagation***************/
+
+#mobile-nav { display: block; }
+
+#content { display: block; }
+
+.child-nav-cat h1 { color: #fff; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; font-size: 15px; }
+
+#nav li a  { font-size: 13px; }
+
+#logo-mobile { margin: 0px 0px 0px 80px; display: block; padding-top: 10px; }
+
+#logo { display: none; }
+ 
+/*******Full-posts***************/
+
+.top-image  { padding: 8px;  max-width: 90%; height: auto;  }
+
+
+
+.post-content p { max-width: 90% }
+
+.side-bar-info { margin: 20px 0px -20px 0px; }
+
+.post-cat , .post-archive { display: none; }
+
+/********Post-excerpt***********/
+
+.post-excerpt-post { height: auto; margin: 0px 0px 20px 8px; }
+
+/*******Social*****************/
+
+.st_facebook_hcount , .st_plusone_hcount { display: none; }
+
+/*******Comments***************/
+
+.commentlist { max-width: 100% !important;  width: 95%; margin: 0px 0px 0px 0px; }
+
+.comment-text p { background-color: #ccc;  }
+
+#comment { max-width: 100%; }
+
+#respond { margin: 0px 8px 0px 0px; }
+
+/*Comment responses */ 
+
+.comment-header { max-width: 100% !important; }
+
+.write-yours { margin: -55px 0px 0px 0px !important; display: none; }
+
+/********Footer***************/
+
+#footer h1 { display: block; font-size: 18px; }
+
+#footer  #footer-signup { display: none; }
+}
+
+/* Samsung S3*/
+@media only screen and (max-width: 640px) and (min-width: 360px) { 
+
+#container-archives { border: none; margin: 0px; }
+
+.categories { margin: 0px 0px 20px -25px; font-size: 10px; }
+
+#container { max-width: 100% !important; width: 100% !important; border: none !important;  } 
+
+.top-image img { max-width: 60%; max-height: 50%;   }
+
+#back-top { margin: -21px -70px 0px 125px !important; float: none !important;  }
+
+.post-excerpt { margin: 8px 8px 20px 28px !important; border-bottom: 2px solid #000; }
+
+.post-excerpt-post { margin: 0px 0px 20px 28px !important; border-bottom: 2px solid #000; }
+
+.post-content { border-top-color: 2px solid #000 !important; }
+
+}
